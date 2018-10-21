@@ -8,6 +8,14 @@ __ears__ is build on the top of OpenAL and libsndfile.
 * Provides an access to the OpenAL spatialization functionality in a simple way.
 * Accepts a lot of audio formats, thanks to libsndfile.
 
+# Dependencies 
+
+You need to install libopenal and libsndfile. On Ubuntu, you can do..
+
+```
+sudo apt install libopenal-dev libsndfile-dev
+```
+
 # A simple example
 
 ```Rust
